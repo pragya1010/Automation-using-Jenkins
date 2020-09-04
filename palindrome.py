@@ -4,3 +4,6 @@ def palindrome(s):
 	else:
 		s = str(s)
 		return int(s[::-1])
+		
+def add(a, b):
+	return a+b
