@@ -7,3 +7,11 @@ def palindrome(s):
 		
 def add(a, b):
 	return a+b
+	
+
+def test_palindrome():
+	assert palindrome("Pragya") == "aygarP"
+	
+	
+def test_add():
+	 assert add(1,2) == 3
